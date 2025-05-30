@@ -1,3 +1,21 @@
+---
+tags:
+  - Friday
+  - VoicePE
+  - HomeAssistant
+  - HASS
+  - Agentic
+  - AI
+  - localAI
+  - compute
+  - inference
+  - speech
+  - STT
+  - TTS
+  - OpenAI
+  - householdIT
+  - guide
+---
 # Introduction
 
 > [!NOTICE]
@@ -65,6 +83,7 @@ rest_command:
     verify_ssl: false
 ```
 
+![[an `intent_script` for `search_recipes`]]
 **2. `intent_script` for `search_recipes`**
 ```php
 intent_script:
