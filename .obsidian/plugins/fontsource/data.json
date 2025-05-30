@@ -1,0 +1,332 @@
+{
+  "fonts": [
+    {
+      "id": "cabin-condensed",
+      "family": "Cabin Condensed",
+      "subsets": [
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "normal"
+      ],
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "isActive": true
+    },
+    {
+      "id": "fira-sans",
+      "family": "Fira Sans",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "isActive": true
+    },
+    {
+      "id": "fira-sans-condensed",
+      "family": "Fira Sans Condensed",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "isActive": true
+    },
+    {
+      "id": "fira-sans-extra-condensed",
+      "family": "Fira Sans Extra Condensed",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ia-writer-mono",
+      "family": "iA Writer Mono",
+      "subsets": [
+        "latin"
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "isActive": true
+    },
+    {
+      "id": "karla",
+      "family": "Karla",
+      "subsets": [
+        "latin",
+        "latin-ext"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "variable": {
+        "ital": {
+          "default": "0",
+          "min": "0",
+          "max": "1",
+          "step": "1"
+        },
+        "wght": {
+          "default": "400",
+          "min": "200",
+          "max": "800",
+          "step": "1"
+        }
+      },
+      "isActive": true
+    },
+    {
+      "id": "league-mono",
+      "family": "League Mono",
+      "subsets": [
+        "latin"
+      ],
+      "styles": [
+        "normal"
+      ],
+      "weights": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "isActive": true
+    },
+    {
+      "id": "merriweather-sans",
+      "family": "Merriweather Sans",
+      "subsets": [
+        "cyrillic-ext",
+        "latin",
+        "latin-ext",
+        "vietnamese"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "variable": {
+        "ital": {
+          "default": "0",
+          "min": "0",
+          "max": "1",
+          "step": "1"
+        },
+        "wght": {
+          "default": "400",
+          "min": "300",
+          "max": "800",
+          "step": "1"
+        }
+      },
+      "isActive": true
+    },
+    {
+      "id": "mononoki",
+      "family": "Mononoki",
+      "subsets": [
+        "latin"
+      ],
+      "styles": [
+        "normal",
+        "italic"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ubuntu-condensed",
+      "family": "Ubuntu Condensed",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "latin",
+        "latin-ext"
+      ],
+      "styles": [
+        "normal"
+      ],
+      "weights": [
+        400
+      ],
+      "isActive": true
+    },
+    {
+      "id": "ubuntu-mono",
+      "family": "Ubuntu Mono",
+      "subsets": [
+        "cyrillic",
+        "cyrillic-ext",
+        "greek",
+        "greek-ext",
+        "latin",
+        "latin-ext"
+      ],
+      "styles": [
+        "italic",
+        "normal"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "isActive": true
+    }
+  ],
+  "interfaceFonts": [
+    {
+      "id": "cabin-condensed",
+      "family": "Cabin Condensed",
+      "precedence": 0
+    },
+    {
+      "id": "karla",
+      "family": "Karla",
+      "precedence": 1
+    },
+    {
+      "id": "fira-sans-condensed",
+      "family": "Fira Sans Condensed",
+      "precedence": 2
+    },
+    {
+      "id": "merriweather-sans",
+      "family": "Merriweather Sans",
+      "precedence": 3
+    },
+    {
+      "id": "fira-sans",
+      "family": "Fira Sans",
+      "precedence": 4
+    }
+  ],
+  "textFonts": [
+    {
+      "id": "karla",
+      "family": "Karla",
+      "precedence": 0
+    }
+  ],
+  "monospaceFonts": [
+    {
+      "id": "league-mono",
+      "family": "League Mono",
+      "precedence": 0
+    },
+    {
+      "id": "mononoki",
+      "family": "Mononoki",
+      "precedence": 1
+    },
+    {
+      "id": "ubuntu-mono",
+      "family": "Ubuntu Mono",
+      "precedence": 2
+    },
+    {
+      "id": "ia-writer-mono",
+      "family": "iA Writer Mono",
+      "precedence": 3
+    }
+  ]
+}
